@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "hw",
+      "setup": "javac Main.java",
+      "run": "java -classpath .:target/dependency/* Main",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
